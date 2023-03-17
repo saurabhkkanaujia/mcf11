@@ -1,0 +1,29 @@
+{
+    "name": "ced_test1/mcf-sdk",
+    "description": "The Selling Partner APIs to manage Reports, Catalog, Pricing, inventory, and fulfillment outbound orders.",
+    "keywords": [
+        "php",
+        "sdk",
+        "rest",
+        "api"
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.3",
+        "guzzlehttp/psr7": "^1.7 || ^2.0"
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^8.0 || ^9.0",
+        "friendsofphp/php-cs-fixer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": { "Ced\\Mcf\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Ced\\Mcf\\Test\\" : "test/" }
+    }
+}
